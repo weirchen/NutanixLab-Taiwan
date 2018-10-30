@@ -34,11 +34,11 @@ VM快照與復原
 
 選擇VM，然後從VM清單下方的功能表中按一下 **Snapshot**。
 
-.. figure:: images/data_protection01.png
+.. figure:: image/data_protection01.png
  
 為快照起一個名字(註：intials輸入實作人員的姓名全名的拼音）
 
-.. figure:: images/data_protection02.png
+.. figure:: image/data_protection02.png
 
 點擊submit提交
 
@@ -46,11 +46,11 @@ VM快照與復原
 
 按一下**Snapshots**以查看快照
 
-.. figure:: images/data_protection03.png
+.. figure:: image/data_protection03.png
 
 - 請注意此步驟還有四個可用操作(Details, Clone, Restore, and Delete)（詳細資訊，副本，還原和刪除）
 
-.. figure:: images/data_protection04.png
+.. figure:: image/data_protection04.png
 
 按一下**Details**可查看快照時的所有VM屬性
 
@@ -60,22 +60,22 @@ VM快照與復原
 
 VM前面的綠點變為紅點後，按一下下面功能表中的**Update**並修改您拍攝快照的原始VM
 
-.. figure:: images/data_protection05.png
+.. figure:: image/data_protection05.png
 
 向下滾動到虛擬磁碟部分，通過點擊**X**圖示，刪除CD-ROM和DISKS
 
 點擊**Save**確認更改.
 
-.. figure:: images/data_protection06.png
+.. figure:: image/data_protection06.png
 
 
 現在嘗試啟動該VM並打開其控制台視窗
 
- .. figure:: images/data_protection07.png
+ .. figure:: image/data_protection07.png
 
  - 注意，VM此時不再有任何可開機的虛擬磁碟，並且顯示2048遊戲。
  
- .. figure:: images/data_protection08.png
+ .. figure:: image/data_protection08.png
 
 
 關閉VM電源。
@@ -84,7 +84,7 @@ VM前面的綠點變為紅點後，按一下下面功能表中的**Update**並�
 
 點擊**Restore**將VM復原到刪除虛擬磁碟之前的狀態.
 
- .. figure:: images/data_protection09.png
+ .. figure:: image/data_protection09.png
 
 
 嘗試打開VM並打開控制台。
@@ -101,7 +101,7 @@ VM前面的綠點變為紅點後，按一下下面功能表中的**Update**並�
 
 選擇**+ Protection Domain** 以創建PD，然後按一下創建Async DR.
 
-.. figure:: images/data_protection10.png
+.. figure:: image/data_protection10.png
 
 輸入PD的名稱PD-\ *NAME* （註： NAME輸入實作人員的姓名全名的拼音）
 
@@ -113,7 +113,7 @@ VM前面的綠點變為紅點後，按一下下面功能表中的**Update**並�
 - 向下滾動並按一下**Protect Selected Entities**.
 - 所選VM顯示在右側表中，點擊**Next**.
 
- .. figure:: images/data_protection11.png
+ .. figure:: image/data_protection11.png
 
 
 **配置日程計畫**:
@@ -126,13 +126,13 @@ VM前面的綠點變為紅點後，按一下下面功能表中的**Update**並�
 
 -  按一下\ **Create Schedule**.
 
- .. figure:: images/data_protection12.png
+ .. figure:: image/data_protection12.png
 
 -  一個保護域可以有多個計畫
 
 -  點擊\ **Close**\ 退出.
 
- .. figure:: images/data_protection13.png
+ .. figure:: image/data_protection13.png
 
 加入遠端站點
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -151,7 +151,7 @@ VM前面的綠點變為紅點後，按一下下面功能表中的**Update**並�
   
 點擊**Close**退出.
 
- .. figure:: images/data_protection13.png
+ .. figure:: image/data_protection13.png
 
 
 小技巧
